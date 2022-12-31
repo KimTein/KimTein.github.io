@@ -40,5 +40,10 @@ img: ":about.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-{{ website_info_text_first }}
-{{ website_info_text_second }}
+# Studying physics and AI in the [Incheon National University][INU-site]
+## In the Lab. AMS and  using Raman Spectrosopy.
+
+profile images are published by [morong studio][morong-studio]
+
+[morong-studio]: https://bio.site/morong
+[INU-site]: https://www.inu.ac.kr/mbshome/mbs/inu/index.do
