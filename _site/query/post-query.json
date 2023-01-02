@@ -1,8 +1,20 @@
 [
     {
+    "title"     : "customizing my blog!"
+    ,"title_sub": "블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요. 천천히 채워나가보도록 하겠습니다."
+    ,"category" : "daily"
+    ,"tags"     : "customizing"
+    ,"url"      : "/posts/2023-01-02-post"
+    ,"image"    : "/assets/img/default/1x1px.png"
+    ,"max_width": ""
+    ,"display"  : ""
+    ,"read_time": "0 min read"
+    ,"date"     : "Jan 2, 2023"
+    ,"year"     : "2023"
+    },{
     "title"     : "My first post!"
     ,"title_sub": "2023년이 되었습니다. 새로운 마음으로 블로그를 작성해나가 보도록 하겠습니다."
-    ,"category" : "auto generated"
+    ,"category" : "daily"
     ,"tags"     : "new blog, first post"
     ,"url"      : "/posts/2023-01-01-my-first-post"
     ,"image"    : "/assets/img/default/1x1px.png"
