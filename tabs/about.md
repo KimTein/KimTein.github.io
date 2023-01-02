@@ -43,7 +43,10 @@ img: ":about.jpg"
 # Studying physics and AI in the [Incheon National University][INU-site]
 ## In the Lab. AMS and  using Raman Spectrosopy.
 
-profile images are published by [morong studio][morong-studio]
+profile images are published by [morong studio][morong-studio]   
+jekyll-theme published by [Mr_Green][Mrgreengit]
+
 
 [morong-studio]: https://bio.site/morong
 [INU-site]: https://www.inu.ac.kr/mbshome/mbs/inu/index.do
+[Mrgreengit]: https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme
