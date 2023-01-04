@@ -4,7 +4,7 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/daily/post-%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE-7.43.23/</loc>
+        <loc>http://localhost:4000/daily/post/</loc>
         
         <lastmod>2023-01-02T00:00:00+09:00</lastmod>
         
@@ -20,7 +20,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/daily/my-first-post-%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE-7.39.43-%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE-7.43.23/</loc>
+        <loc>http://localhost:4000/daily/my-first-post/</loc>
         
         <lastmod>2023-01-01T00:00:00+09:00</lastmod>
         

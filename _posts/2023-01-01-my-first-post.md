@@ -1,12 +1,17 @@
 ---
 title: "[Daily]My first post!"
-#permalink: /categories/
+excerpt : "first post"
 author: KimTein
+
 categories: 
     - daily
 tags:
     - new blog
-    - first post
+
+toc : true
+tox_sticky : true
+
+date : 2023-01-01
 last_modified_at: 2023-01-01 02:44:30 +0900
 ---
 
