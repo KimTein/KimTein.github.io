@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Daily]customizing my blog!",
-        "excerpt":"  블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요.   천천히 채워나가보도록 하겠습니다.   public class BootSpringBootApplication {   public static void main(String[] args) {     System.out.println(\"Hello, Honeymon\");   } }     ","categories": ["daily"],
+        "excerpt":"  블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요.   천천히 채워나가보도록 하겠습니다. test   public class BootSpringBootApplication {   public static void main(String[] args) {     System.out.println(\"Hello, Honeymon\");   } }     ","categories": ["daily"],
         "tags": ["customizing"],
         "url": "/daily/post/",
         "teaser": null

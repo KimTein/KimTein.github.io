@@ -12,6 +12,13 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- font : "Roboto Regular 400" from google font-->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    
+    <!-- font : Nanum Gothic" -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap">
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
