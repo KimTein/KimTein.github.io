@@ -6,11 +6,12 @@ author: KimTein
 categories: 
     - daily
 tags:
-    - new blog
+    - gitblog
 
 toc : true
 tox_sticky : true
-
+author_profile: true
+sidebar_main: true  
 date : 2023-01-01
 last_modified_at: 2023-01-01 02:44:30 +0900
 ---
