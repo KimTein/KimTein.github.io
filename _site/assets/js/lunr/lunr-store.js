@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Daily]Custom my blog!",
-        "excerpt":" 테마를 꾸밀 때 식빵맘(ansohxxn)님의 깃허브를 참고하였습니다.     ","categories": ["daily"],
+        "excerpt":" 테마를 꾸밀 때 식빵맘(ansohxxn)님의 깃허브를 참고하였습니다.       맨 위로 이동하기   cout « “utterance” « endl;  ","categories": ["daily"],
         "tags": ["gitblog"],
         "url": "/daily/customblog/",
         "teaser": null
