@@ -19,7 +19,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "daily" %}
-                        <li><a href="/categories/daily" class="">C ++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/daily" class="">daily ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -30,11 +30,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Coding Test</span>
+        <span class="nav__sub-title">Physics</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "raman" %}
+                        <li><a href="/categories/raman" class="">라만이야기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
