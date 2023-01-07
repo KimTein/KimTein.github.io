@@ -1,15 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-07T17:33:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Raman] Introduce of Raman Spectroscopy!</title><link href="http://localhost:4000/raman/my-first-test/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy!" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-07T02:44:30+09:00</updated><id>http://localhost:4000/raman/my-first-test</id><content type="html" xml:base="http://localhost:4000/raman/my-first-test/"><![CDATA[<h1 id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-07T18:35:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Raman] Introduce of Raman Spectroscopy</title><link href="http://localhost:4000/raman/my-first-test/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-07T02:44:30+09:00</updated><id>http://localhost:4000/raman/my-first-test</id><content type="html" xml:base="http://localhost:4000/raman/my-first-test/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
 <hr />
 
-<p class="algin-center">First of all, I study using the followin books.<br />
+<p>First of all, I study using the followin books.<br />
 [push image book]</p>
-<h2 id="sir-raman">Sir Raman</h2>
+<h2 class="text-center" id="sir-raman">Sir Raman</h2>
 
 <p>In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes through the solution, green light is scattered. Nowadays, with the development of spectrometers, we can measure the intensity of light as bands or repetitive bands according to frequency on spectrum.  <br />
 Raman spectroscopy is that when monochromatic light is exposed to a gas or a transparent liquid solid, slightly different wavelengths are emitted in the diffuser tube. At this momment, the scattering means when light passes through a medium, it changes the wavelength of light so that some of the light travels. If it changes wavelength, this phenomenon called ‘<strong><em>Raman Scattering</em></strong>’ or ‘<strong><em>Raman effect</em></strong>’.</p>
 
-<h2 id="raman-scattering">Raman Scattering</h2>
-<p>Raman scattering is</p>]]></content><author><name>KimTein</name></author><category term="raman" /><category term="raman" /><summary type="html"><![CDATA[What is Raman Spectrocopy]]></summary></entry><entry><title type="html">[Daily]Custom my blog!</title><link href="http://localhost:4000/daily/customblog/" rel="alternate" type="text/html" title="[Daily]Custom my blog!" /><published>2023-01-04T00:00:00+09:00</published><updated>2023-01-04T18:09:30+09:00</updated><id>http://localhost:4000/daily/customblog</id><content type="html" xml:base="http://localhost:4000/daily/customblog/"><![CDATA[<!-- outline-start -->
+<h2 class="text-center" id="raman-scattering">Raman Scattering</h2>
+
+<p>When light passes through a medium, some of the light is scattered and deviates from the direction of propagation. At this time, the scattered light has the original energy as it is, but it is less than the energy of the original light. The process of the scattered light maintaining the original energy is called <strong><em>Rayleigh scattering</em></strong> or <strong><em>Elastic scattering</em></strong>. Contrary the process of scattering while losing or gaining energy is called <strong><em>Raman scattering</em></strong> or <strong><em>Inelastic scattering</em></strong>.
+<br /></p>
+<center><img src="https://www.nanophoton.net/wp-content/uploads/2020/10/70fa2968a507912a93b1a756c034085f.png" height="400" width="400" /></center>
+<hr />
+<figcaption style="text-align: left;"> [Figure. 1] Raman and Rayleigh scattering </figcaption>
+<p><br />
+…</p>]]></content><author><name>KimTein</name></author><category term="raman" /><category term="Raman" /><summary type="html"><![CDATA[What is Raman Spectrocopy]]></summary></entry><entry><title type="html">[Daily]Custom my blog!</title><link href="http://localhost:4000/daily/customblog/" rel="alternate" type="text/html" title="[Daily]Custom my blog!" /><published>2023-01-04T00:00:00+09:00</published><updated>2023-01-04T18:09:30+09:00</updated><id>http://localhost:4000/daily/customblog</id><content type="html" xml:base="http://localhost:4000/daily/customblog/"><![CDATA[<!-- outline-start -->
 <p>테마를 꾸밀 때 <a href="https://github.com/ansohxxn">식빵맘</a>(ansohxxn)님의 깃허브를 참고하였습니다.</p>
 
 <!-- outline-end -->
