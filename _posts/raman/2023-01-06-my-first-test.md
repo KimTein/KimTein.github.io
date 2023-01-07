@@ -1,21 +1,32 @@
 ---
-title: "[Raman]My first posttest!"
-excerpt : "first post"
+title: "[Raman] Introduce of Raman Spectroscopy!"
+excerpt : "What is Raman Spectrocopy"
 author: KimTein
 
 categories: 
     - raman
 tags:
-    - gitblog
+    - raman
 
 toc : true
 tox_sticky : true
 author_profile: true
 sidebar_main: true  
-date : 2023-01-01
-last_modified_at: 2023-01-01 02:44:30 +0900
+date : 2023-01-06
+last_modified_at: 2023-01-07 02:44:30 +0900
 ---
 
-2023년이 되었습니다. 새로운 마음으로 블로그를 작성해나가 보도록 하겠습니다. 
+# About Raman Spectroscopy
+___
 
-인공지능과 물리를 다루어보며 정리해보도록 할게요. 모두 새해 복 많이 받으시길 바랍니다.
+First of all, I study using the followin books.  
+[push image book]   
+{: .algin-center}
+In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon.    
+Raman spectroscopy is that when monochromatic light is exposed to a gas or a transparent liquid solid, slightly different wavelengths are emitted in the diffuser tube.
+At this momment, the scattering means when light passes through a medium, it changes the wavelength of light so that some of the light travels. If it changes wavelength, this phenomenon called '**_Raman Scattering_**' or '**_Raman effect_**'.
+
+
+
+
+

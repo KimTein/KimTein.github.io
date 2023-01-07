@@ -5,12 +5,6 @@ var store = [{
         "url": "/daily/my-first-post/",
         "teaser": null
       },{
-        "title": "[Raman]My first posttest!",
-        "excerpt":"2023년이 되었습니다. 새로운 마음으로 블로그를 작성해나가 보도록 하겠습니다.   인공지능과 물리를 다루어보며 정리해보도록 할게요. 모두 새해 복 많이 받으시길 바랍니다.  ","categories": ["raman"],
-        "tags": ["gitblog"],
-        "url": "/raman/my-first-test/",
-        "teaser": null
-      },{
         "title": "[Daily]customizing my blog!",
         "excerpt":"  블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요.   천천히 채워나가보도록 하겠습니다. test   public class BootSpringBootApplication {   public static void main(String[] args) {     System.out.println(\"Hello, Honeymon\");   } }     ","categories": ["daily"],
         "tags": ["gitblog"],
@@ -27,5 +21,11 @@ var store = [{
         "excerpt":" 테마를 꾸밀 때 식빵맘(ansohxxn)님의 깃허브를 참고하였습니다.       맨 위로 이동하기   cout « “utterance” « endl;  ","categories": ["daily"],
         "tags": ["gitblog"],
         "url": "/daily/customblog/",
+        "teaser": null
+      },{
+        "title": "[Raman] Introduce of Raman Spectroscopy!",
+        "excerpt":"About Raman Spectroscopy First of all, I study using the followin books. [push image book] In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. Raman spectroscopy is that when monochromatic light is exposed to a gas or a transparent liquid solid, slightly different wavelengths are emitted in the diffuser tube....","categories": ["raman"],
+        "tags": ["raman"],
+        "url": "/raman/my-first-test/",
         "teaser": null
       }]
