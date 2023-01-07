@@ -19,7 +19,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "daily" %}
-                        <li><a href="/categories/daily" class="">daily ({{category[1].size}})</a></li>
+                        <li><a href="/categories/daily" class="">Daily story ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -34,7 +34,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "raman" %}
-                        <li><a href="/categories/raman" class="">라만이야기 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/raman" class=""> Raman Story </a> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
