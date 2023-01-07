@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Raman] Introduce of Raman Spectroscopy!",
-        "excerpt":"About Raman Spectroscopy First of all, I study using the followin books. [push image book] In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. Raman spectroscopy is that when monochromatic light is exposed to a gas or a transparent liquid solid, slightly different wavelengths are emitted in the diffuser tube....","categories": ["raman"],
+        "excerpt":"About Raman Spectroscopy First of all, I study using the followin books. [push image book] Sir Raman In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes through the solution, green light is scattered. Nowadays, with the development of spectrometers, we can measure the intensity...","categories": ["raman"],
         "tags": ["raman"],
         "url": "/raman/my-first-test/",
         "teaser": null
