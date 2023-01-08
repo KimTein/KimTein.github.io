@@ -6,8 +6,8 @@ categories:
   - daily
 tags: 
   - gitblog
-toc : true
-toc_sticky : true
+toc : false
+toc_sticky : false
 date : 2023-01-04
 last_modified_at: 2023-01-04 18:09:30 +0900
 author_profile: true

@@ -8,8 +8,8 @@ categories:
 tags:
     - gitblog
 
-toc : true
-tox_sticky : true
+toc : false
+toc_sticky : false
 author_profile: true
 sidebar_main: true  
 date : 2023-01-01

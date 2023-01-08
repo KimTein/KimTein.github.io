@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Daily]customizing my blog!",
-        "excerpt":"  블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요.   천천히 채워나가보도록 하겠습니다. test   public class BootSpringBootApplication {   public static void main(String[] args) {     System.out.println(\"Hello, Honeymon\");   } }     ","categories": ["daily"],
+        "excerpt":"  블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요.   천천히 채워나가보도록 하겠습니다.   test   public class BootSpringBootApplication {   public static void main(String[] args) {     System.out.println(\"Hello, Honeymon\");   } }     ","categories": ["daily"],
         "tags": ["gitblog"],
         "url": "/daily/post/",
         "teaser": null
@@ -24,8 +24,14 @@ var store = [{
         "teaser": null
       },{
         "title": "[Raman] Introduce of Raman Spectroscopy",
-        "excerpt":"About Raman Spectroscopy First of all, I study using the followin books. [push image book] Sir Raman In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes through the solution, green light is scattered. Nowadays, with the development of spectrometers, we can measure the intensity...","categories": ["raman"],
-        "tags": ["Raman"],
-        "url": "/raman/my-first-test/",
+        "excerpt":"About Raman Spectroscopy  First of all, I study using the above following books. Title : Introductory Raman Spectroscopy(Second edition) Author : John R.Ferraro, Nakamoto and Chris W.Brown Publisher : Elsevier, 2003 Sir Chandrasekhra Venkata Raman  In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes...","categories": ["raman"],
+        "tags": ["Introduce Raman"],
+        "url": "/raman/raman-introduce/",
+        "teaser": null
+      },{
+        "title": "[Daily] Coffee!",
+        "excerpt":"     맨 위로 이동하기  ","categories": ["daily"],
+        "tags": ["daily"],
+        "url": "/daily/coffee/",
         "teaser": null
       }]

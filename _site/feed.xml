@@ -1,22 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-07T18:35:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Raman] Introduce of Raman Spectroscopy</title><link href="http://localhost:4000/raman/my-first-test/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-07T02:44:30+09:00</updated><id>http://localhost:4000/raman/my-first-test</id><content type="html" xml:base="http://localhost:4000/raman/my-first-test/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-08T16:31:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
+<!-- outline-end -->
+
 <hr />
 
-<p>First of all, I study using the followin books.<br />
-[push image book]</p>
-<h2 class="text-center" id="sir-raman">Sir Raman</h2>
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>KimTein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Introduce of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
+<hr />
 
-<p>In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes through the solution, green light is scattered. Nowadays, with the development of spectrometers, we can measure the intensity of light as bands or repetitive bands according to frequency on spectrum.  <br />
-Raman spectroscopy is that when monochromatic light is exposed to a gas or a transparent liquid solid, slightly different wavelengths are emitted in the diffuser tube. At this momment, the scattering means when light passes through a medium, it changes the wavelength of light so that some of the light travels. If it changes wavelength, this phenomenon called ‘<strong><em>Raman Scattering</em></strong>’ or ‘<strong><em>Raman effect</em></strong>’.</p>
+<p> First of all, I study using the above following books.
+<br />
+<a href="https://www.elsevier.com/books/introductory-raman-spectroscopy/ferraro/978-0-12-254105-6">
+<img src="https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780122541056.jpg" height="200" width="200" align="left" /></a></p>
+
+<p>Title :  Introductory Raman Spectroscopy(Second edition) <br />
+<br /> 
+Author : <em>John R.Ferraro, Nakamoto and Chris W.Brown</em> <br />
+<br />
+Publisher : Elsevier, 2003 <br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h2 class="text-center" id="sir-chandrasekhra-venkata-raman">Sir <em>Chandrasekhra Venkata Raman</em></h2>
+
+<p> In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes through the solution, green light is scattered. Nowadays, with the development of spectrometers, we can measure the intensity of light as bands or repetitive bands according to frequency on spectrum.
+<br /><br />
+ Raman spectroscopy is that when monochromatic light is exposed to a gas or a transparent liquid solid, slightly different wavelengths are emitted in the diffuser tube. At this momment, the scattering means when light passes through a medium, it changes the wavelength of light so that some of the light travels. If it changes wavelength, this phenomenon called ‘<strong><em>Raman Scattering</em></strong>’ or ‘<strong><em>Raman effect</em></strong>’.</p>
 
 <h2 class="text-center" id="raman-scattering">Raman Scattering</h2>
 
-<p>When light passes through a medium, some of the light is scattered and deviates from the direction of propagation. At this time, the scattered light has the original energy as it is, but it is less than the energy of the original light. The process of the scattered light maintaining the original energy is called <strong><em>Rayleigh scattering</em></strong> or <strong><em>Elastic scattering</em></strong>. Contrary the process of scattering while losing or gaining energy is called <strong><em>Raman scattering</em></strong> or <strong><em>Inelastic scattering</em></strong>.
+<p> When light passes through a medium, some of the light is scattered and deviates from the direction of propagation. At this time, the scattered light has the original energy as it is, but it is less than the energy of the original light. The process of the scattered light maintaining the original energy is called <strong><em>Rayleigh scattering</em></strong> or <strong><em>Elastic scattering</em></strong>. Contrary the process of scattering while losing or gaining energy is called <strong><em>Raman scattering</em></strong> or <strong><em>Inelastic scattering</em></strong>.
 <br /></p>
-<center><img src="https://www.nanophoton.net/wp-content/uploads/2020/10/70fa2968a507912a93b1a756c034085f.png" height="400" width="400" /></center>
+<center>
+<a href="https://www.nanophoton.net/lecture-room/raman-spectroscopy/lesson-1-1">
+<img src="https://www.nanophoton.net/wp-content/uploads/2020/10/70fa2968a507912a93b1a756c034085f.png" height="400" width="400" />
+</a>
+</center>
 <hr />
 <figcaption style="text-align: left;"> [Figure. 1] Raman and Rayleigh scattering </figcaption>
-<p><br />
-…</p>]]></content><author><name>KimTein</name></author><category term="raman" /><category term="Raman" /><summary type="html"><![CDATA[What is Raman Spectrocopy]]></summary></entry><entry><title type="html">[Daily]Custom my blog!</title><link href="http://localhost:4000/daily/customblog/" rel="alternate" type="text/html" title="[Daily]Custom my blog!" /><published>2023-01-04T00:00:00+09:00</published><updated>2023-01-04T18:09:30+09:00</updated><id>http://localhost:4000/daily/customblog</id><content type="html" xml:base="http://localhost:4000/daily/customblog/"><![CDATA[<!-- outline-start -->
+<p><br /></p>
+
+<h3 class="text-left" id="stokes-shift">Stokes Shift</h3>
+<hr />
+<p> When a molecule receives light energy, it is excited to an excited state and then falls back to the ground state. As described above, when emitting while maintaining the incident energy of the light source, it is <em>rayleigh scattering</em> and the other case is <em>raman scattering</em>. At this momment, after absorbing the vibrational energy of the molecule and returning to the ground state, this is called <strong><em>‘Stokes Shift (effect)’</em></strong>. Because the energy of incident light is absorbed by the molecule, emitting energy is lower than original energy and the wavelength of light is longer.
+<br />
+ On the other hand, when a molecule releases its vibrational energy and returns to ground state, it is called <strong><em>‘Anti-Stokes Shift (effect)’</em></strong>. Likewise, wavelength of emitting light is shorter.[Figure. 2]
+<br />
+<a href="https://en.wikipedia.org/wiki/Raman_scattering">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ramanscattering.svg/960px-Ramanscattering.svg.png" />
+</a></p>
+
+<hr />
+<figcaption style="text-align: left;"> [Figure. 2] Stokes scattering </figcaption>
+<p><br /></p>
+
+<h2 class="text-center" id="significance">Significance</h2>
+
+<p> The energy absorbed or emitted by a substance depends on the molecular structure and density of each substance. In addition, since the scattered light from Raman scattering is <strong>unique</strong> to each material. Thus, We can <strong><em>determine the molecular structure</em></strong> of the material by analyzing the scattered light.</p>
+
+<!-- Button Up-->
+<hr />
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>KimTein</name></author><category term="raman" /><category term="Introduce Raman" /><summary type="html"><![CDATA[About Raman Spectrocopy]]></summary></entry><entry><title type="html">[Daily]Custom my blog!</title><link href="http://localhost:4000/daily/customblog/" rel="alternate" type="text/html" title="[Daily]Custom my blog!" /><published>2023-01-04T00:00:00+09:00</published><updated>2023-01-04T18:09:30+09:00</updated><id>http://localhost:4000/daily/customblog</id><content type="html" xml:base="http://localhost:4000/daily/customblog/"><![CDATA[<!-- outline-start -->
 <p>테마를 꾸밀 때 <a href="https://github.com/ansohxxn">식빵맘</a>(ansohxxn)님의 깃허브를 참고하였습니다.</p>
 
 <!-- outline-end -->
@@ -32,8 +77,9 @@ Raman spectroscopy is that when monochromatic light is exposed to a gas or a tra
 
 <p>블로그를 꾸며보는데 있어서 마크다운을 이용하여 작성한다는 점이 어렵네요.</p>
 
-<p>천천히 채워나가보도록 하겠습니다.
-test</p>
+<p>천천히 채워나가보도록 하겠습니다.</p>
+
+<p>test</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">BootSpringBootApplication</span> <span class="o">{</span>
   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>

@@ -1,5 +1,5 @@
 ---
-title: "라만이야기"
+title: "Raman Story"
 layout: archive
 permalink: categories/raman
 author_profile: true
