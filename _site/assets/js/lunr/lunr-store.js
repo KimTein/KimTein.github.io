@@ -34,4 +34,10 @@ var store = [{
         "tags": ["daily"],
         "url": "/daily/coffee/",
         "teaser": null
+      },{
+        "title": "[Raman] Basic Theory",
+        "excerpt":"     Energy Units and Molecular Spectra              맨 위로 이동하기  ","categories": ["raman"],
+        "tags": ["Raman Basic Theory"],
+        "url": "/raman/Raman-Basic-Theory/",
+        "teaser": null
       }]
