@@ -1,7 +1,7 @@
 ---
 title: "[Daily]My first post!"
 excerpt : "first post"
-author: KimTein
+author: KimTein 
 
 categories: 
     - daily

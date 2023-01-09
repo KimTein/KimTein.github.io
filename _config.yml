@@ -25,7 +25,7 @@ url                      : "https://KimTein.github.io" # the base hostname & pro
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "KimTein/KimTein.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/profile/profile.JPG # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Tein's room" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : "true" # false # true, false (default)
 words_per_minute         : 200
@@ -223,7 +223,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 15 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -271,6 +271,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+# Collections
+#collections:
+#  portfolio:
+#    output: true
+#    permalink: /:collection/:path/
+
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -290,11 +296,15 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_data: true
       comments:  true
       share: true
       related: true
       mathjax: true
       sidebar_main : true
+      toc: true
+      toc_sticky: true
+
 
 # _Pages
   - scope:
@@ -303,3 +313,24 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+ # portfolio
+ # - scope:
+ #     path: ""
+ #     type: "portfolio"
+ #   values:
+ #     layout: single
+ #    author_profile: true
+ #     read_time: true
+ #     show_date: false
+ #     comments: true
+ #     share: true
+ #     related: true
+ #     toc: false
+ #     toc_sticky: true
+ #     classes: wide
+ #     header:
+      #   teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+ #       overlay_image: https://source.unsplash.com/featured/?portfolio
+ #       overlay_filter: 0.4
+ #       caption: "Photo credit: [**Unsplash**](https://source.unsplash.com/featured/?portfolio)"

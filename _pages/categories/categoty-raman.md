@@ -9,6 +9,7 @@ excerpt: "Talk about Raman Spectroscopy"
 header:
   overlay_image: /assets/images/posts/raman/raman-header1.jpg
   overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
+  #linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.5))
   #caption: "Photo credit: [**show name**](url)"
   actions:
     - label: "Lab. AMS"

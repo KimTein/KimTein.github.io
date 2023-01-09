@@ -25,11 +25,11 @@ ___
 <a href='https://www.elsevier.com/books/introductory-raman-spectroscopy/ferraro/978-0-12-254105-6'>
 <img src="https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780122541056.jpg" height=200 width=200 align="left">
 
-Title :  Introductory Raman Spectroscopy(Second edition)   
+&nbsp; Title :  Introductory Raman Spectroscopy(Second edition)   
 <br> 
-Author : _John R.Ferraro, Nakamoto and Chris W.Brown_   
+&nbsp; Author : _John R.Ferraro, Nakamoto and Chris W.Brown_   
 <br>
-Publisher : Elsevier, 2003   
+&nbsp; Publisher : Elsevier, 2003   
 <br>
 <br>
 <br>

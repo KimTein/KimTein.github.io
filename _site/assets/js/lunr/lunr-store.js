@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Raman] Introduce of Raman Spectroscopy",
-        "excerpt":"About Raman Spectroscopy  First of all, I study using the above following books. Title : Introductory Raman Spectroscopy(Second edition) Author : John R.Ferraro, Nakamoto and Chris W.Brown Publisher : Elsevier, 2003 Sir Chandrasekhra Venkata Raman  In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when blue light passes...","categories": ["raman"],
+        "excerpt":"About Raman Spectroscopy  First of all, I study using the above following books.   Title : Introductory Raman Spectroscopy(Second edition)   Author : John R.Ferraro, Nakamoto and Chris W.Brown   Publisher : Elsevier, 2003 Sir Chandrasekhra Venkata Raman  In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when...","categories": ["raman"],
         "tags": ["Introduce Raman"],
         "url": "/raman/raman-introduce/",
         "teaser": null
