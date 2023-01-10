@@ -8,7 +8,7 @@ toc             : true
 toc_sticky      : true
 sidebar_main    : true
 date            : 2023-01-08 #posing date
-last_modified_at: 2023-01-08 12:00:00 +0900
+last_modified_at: 2023-01-10 12:00:00 +0900
 
 categories:
   - raman
@@ -40,9 +40,12 @@ ___
 
 $$ E = E_0cos2\pi vt \tag{1} $$
 
-$E_0$ is the amplitude, $$v$$ is the frequency of radiation.
+$$E_0$$ is the amplitude, $$v$$ is the frequency of radiation.
 
 <br>
+&nbsp; The distance between two points of the same phase in successive waves is called the _"wavelength"_ , $$\lambda$$, which us measured in units.($$\mathring{A}$$)
+
+
 
 
 ___
