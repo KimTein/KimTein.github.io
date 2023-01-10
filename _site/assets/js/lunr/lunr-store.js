@@ -36,8 +36,8 @@ var store = [{
         "teaser": null
       },{
         "title": "[Raman] Basic Theory",
-        "excerpt":"     Energy Units and Molecular Spectra              맨 위로 이동하기  ","categories": ["raman"],
-        "tags": ["Raman Basic Theory"],
+        "excerpt":"Energy Units and Molecular Spectra [Figure. 1] Plane of Polarization   [Figure. 1] illustrates a wave of polarized electromagnetic radiation traveling in the x-direction. The electric component is y-direction and magnetic is z-direction.   Hereafter, we consider only the former. (Don’t involve magnetic phenomena). The electric field strength (E) at...","categories": ["raman"],
+        "tags": ["Raman"],
         "url": "/raman/Raman-Basic-Theory/",
         "teaser": null
       }]

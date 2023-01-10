@@ -1,21 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-09T14:43:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-10T17:38:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
 <!-- outline-end -->
 
 <hr />
 
-<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Basic Theory</title><link href="http://localhost:4000/raman/Raman-Basic-Theory/" rel="alternate" type="text/html" title="[Raman] Basic Theory" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T16:05:30+09:00</updated><id>http://localhost:4000/raman/Raman-Basic-Theory</id><content type="html" xml:base="http://localhost:4000/raman/Raman-Basic-Theory/"><![CDATA[<!-- outline-start -->
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Basic Theory</title><link href="http://localhost:4000/raman/Raman-Basic-Theory/" rel="alternate" type="text/html" title="[Raman] Basic Theory" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T12:00:00+09:00</updated><id>http://localhost:4000/raman/Raman-Basic-Theory</id><content type="html" xml:base="http://localhost:4000/raman/Raman-Basic-Theory/"><![CDATA[<!-- outline-start -->
 <p><br /></p>
 
 <h1 class="text-center" id="energy-units-and-molecular-spectra">Energy Units and Molecular Spectra</h1>
 <p><br /></p>
+<center>
+<a href="https://en.wikipedia.org/wiki/Plane_of_polarization">
+<img alt="plane polarization" src="https://upload.wikimedia.org/wikipedia/commons/9/99/EM-Wave.gif" width="400" />
+</a>
+</center>
+<hr />
+<figcaption style="text-align: center;">
+[Figure. 1] Plane of Polarization </figcaption>
 
-<p> </p>
+<p><br />
+  [Figure. 1] illustrates a wave of polarized electromagnetic radiation traveling in the x-direction. The electric component is y-direction and magnetic is z-direction.
+<br />
+  Hereafter, we consider only the former. (Don’t involve magnetic phenomena). The electric field strength (<em>E</em>) at a given time (<em>t</em>) is expressed by</p>
 
-<!-- outline-end -->
+\[E = E_0cos2\pi vt \tag{1}\]
+
+<p>$E_0$ is the amplitude, \(v\) is the frequency of radiation.</p>
+
+<p><br /></p>
 
 <hr />
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>
 
-<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="raman" /><category term="Raman Basic Theory" /><summary type="html"><![CDATA[Baisc Theory of Raman Spectroscopy]]></summary></entry><entry><title type="html">[Raman] Introduce of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
+<!-- 수식넣기
+$$
+\begin{align}
+\mbox{Union: } & A\cup B = {x\mid x\in A \mbox{ or } x\in B} \tag{1}\\
+\mbox{Concatenation: } & A\circ B = {xy\mid x\in A \mbox{ and } y\in B} \tag{2}\\
+\mbox{Star: } & A^\star = {x_1x_2\ldots x_k \mid k\geq 0 \mbox{ and each } x_i\in A} \tag{3}
+\end{align}
+$$
+-->]]></content><author><name>Kim Tein</name></author><category term="raman" /><category term="Raman" /><summary type="html"><![CDATA[Baisc Theory of Raman Spectroscopy]]></summary></entry><entry><title type="html">[Raman] Introduce of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
 <hr />
 
 <p> First of all, I study using the above following books.
