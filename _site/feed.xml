@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-10T17:55:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-10T18:04:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
 <!-- outline-end -->
 
 <hr />
@@ -27,7 +27,9 @@
 <p>\(E_0\) is the amplitude, \(v\) is the frequency of radiation.</p>
 
 <p><br />
-  The distance between two points of the same phase in successive waves is called the <em>“wavelength”</em> , \(\lambda\), which us measured in units.(\(\mathring{A}\))</p>
+  The distance between two points of the same phase in successive waves is called the <em>“wavelength”</em> , \(\lambda\), which us measured in units.(\(\mathring{A}\)(angstrom), \(nm\)(nanometer), \(m\mu\)(millimicron), and \(cm\)(centimeter)). The relationships between them are:</p>
+
+\[1 \mathring{A} = 10^{-8} cm\]
 
 <hr />
 <p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>

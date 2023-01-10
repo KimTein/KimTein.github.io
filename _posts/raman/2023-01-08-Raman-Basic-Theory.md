@@ -43,7 +43,9 @@ $$ E = E_0cos2\pi vt \tag{1} $$
 $$E_0$$ is the amplitude, $$v$$ is the frequency of radiation.
 
 <br>
-&nbsp; The distance between two points of the same phase in successive waves is called the _"wavelength"_ , $$\lambda$$, which us measured in units.($$\mathring{A}$$)
+&nbsp; The distance between two points of the same phase in successive waves is called the _"wavelength"_ , $$\lambda$$, which us measured in units.($$\mathring{A}$$(angstrom), $$nm$$(nanometer), $$m\mu$$(millimicron), and $$cm$$(centimeter)). The relationships between them are:
+
+$$1 \mathring{A} = 10^{-8} cm $$
 
 
 
