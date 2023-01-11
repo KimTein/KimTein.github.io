@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-10T18:04:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-11T20:05:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
 <!-- outline-end -->
 
 <hr />
@@ -29,7 +29,36 @@
 <p><br />
   The distance between two points of the same phase in successive waves is called the <em>“wavelength”</em> , \(\lambda\), which us measured in units.(\(\mathring{A}\)(angstrom), \(nm\)(nanometer), \(m\mu\)(millimicron), and \(cm\)(centimeter)). The relationships between them are:</p>
 
-\[1 \mathring{A} = 10^{-8} cm\]
+\[1 \mathring{A} = 10^{-8} cm = 10^{-1} nm = 10^{-1} m\mu  \tag{2}\]
+
+<p>  The frequency, \(v\) is the number of waves in the distance light travels in one second. Thus,</p>
+
+\[v = \frac{c}{\lambda} \tag{3}\]
+
+<p>\(c\) is the velocity of light \((3 \times 10^{10} cm/s)\). And if \(\lambda\) is in the unit of centimeters, its dimension is \((cm/s)/(cm) = 1/s\). This “reciporal second” unit is also called the “hertz” \((Hz)\).
+  There’s another parameter is the <em>“wavenumber”</em>, \(\tilde{v}\) defined by</p>
+
+\[\tilde{v} = \frac{v}{c} \tag{4}\]
+
+<p>  The difference between \(v\) and \(\tilde{v}\) is obvious. It has the dimension of \((1/s)/(cm/s) = 1/cm.\) By combining formula (3),(4) we have</p>
+
+\[\tilde{v} = \frac{v}{c} = \frac{1}{\lambda}(cm^{-1}) \tag{5}\]
+
+<p>Also, we can express by \(v\)</p>
+
+\[v = \frac{c}{\lambda} = c \tilde{v} \tag{6}\]
+
+<p>  As shown earlier, the wavenumber\((\tilde{v})\) and frequency \((v)\) are different parameters, yet these two terms are often used interchangeably. Thus, we can express by <strong>IR</strong> and <strong>Raman spectrosopists</strong> such as “frequency shift of \(10cm^{-1}\)”. 
+<br />
+  We can know a transfer energy from the field to the molecule and it can occur only when Bohr’s frequency condition is satisfied.(If a molecule interacts with an electromagetic field).</p>
+
+\[\Delta E = hv = h\frac{c}{\lambda} = hc\tilde{v} \tag{7}\]
+
+<p>Here \(h\) is Planck’s constant \((6.62 times 10^{-27}erg s)\) and \(\Delta E\) is the difference in energy between two quantized states. Thus, \(\tilde{v}\) is directly proportional to the energy of transition.</p>
+
+<p>  Let’s Suppose that</p>
+
+<p>$$ \Delta E =</p>
 
 <hr />
 <p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>
