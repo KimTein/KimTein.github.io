@@ -1,5 +1,5 @@
 ---
-title: "일상이야기"
+title: "Daily Story"
 layout: archive
 permalink: categories/daily
 author_profile: true

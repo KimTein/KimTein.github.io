@@ -36,8 +36,14 @@ var store = [{
         "teaser": null
       },{
         "title": "[Raman] Basic Theory",
-        "excerpt":"Energy Units and Molecular Spectra [Figure. 1] Plane of Polarization   [Figure. 1] illustrates a wave of polarized electromagnetic radiation traveling in the x-direction. The electric component is y-direction and magnetic is z-direction.   Hereafter, we consider only the former. (Don’t involve magnetic phenomena). The electric field strength (E) at...","categories": ["raman"],
+        "excerpt":"Energy Units and Molecular Spectra Plane Polarized electromagetic radiation [Figure. 1] Plane of Polarization   [Figure. 1] illustrates a wave of polarized electromagnetic radiation traveling in the x-direction. The electric component is y-direction and magnetic is z-direction.   Hereafter, we consider only the former. (Don’t involve magnetic phenomena). The electric...","categories": ["raman"],
         "tags": ["Raman"],
         "url": "/raman/Raman-Basic-Theory/",
+        "teaser": null
+      },{
+        "title": "[Daily]Developing my lab. website",
+        "excerpt":" 제가 속해있는 연구실 AMS LAB. 대표 웹사이트를 제작중입니다.    Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.   내부 나스 서버에 연결해서 고정IP 할당 및 방화벽 해제하고 있습니다.    네트워크 관련 지식이 부족한 상태라 공부하면서 진행중이라 어렵네요.   계속 마무리 지어보겠습니다. 아직은 개설을 하지 않아 링크를 걸어둘 수 없네요.      맨 위로 이동하기  ","categories": ["daily"],
+        "tags": ["lab"],
+        "url": "/daily/daily-website/",
         "teaser": null
       }]
