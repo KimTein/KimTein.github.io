@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Daily] Coffee!",
-        "excerpt":"     맨 위로 이동하기  ","categories": ["daily"],
+        "excerpt":" 몸속엔 카페인이 흘러요.      맨 위로 이동하기  ","categories": ["daily"],
         "tags": ["daily"],
         "url": "/daily/coffee/",
         "teaser": null
