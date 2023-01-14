@@ -46,4 +46,16 @@ var store = [{
         "tags": ["lab"],
         "url": "/daily/daily-website/",
         "teaser": null
+      },{
+        "title": "[Electrodynamics] Vector Analysis",
+        "excerpt":"벡터해석   전자기학을 공부하기 위해선 벡터를 해석할 줄 알아야합니다. 전자기학 뿐만 아니라 벡터는 모든 개념에서 기초가 되므로 간단하게 짚고 넘어가며 알아보겠습니다. 자세한 내용은 관련 서적을 참고하시면 좋습니다. 벡터대수 벡터연산   벡터란 방향을 내포하는 개념이므로 크기를 계산할 때 변위(displacement) 로 바라봅니다. 방향성을 제거했을 때는 스칼라(scalar) 입니다. 간단한 예시를 보겠습니다. [Figure. 1]...","categories": ["electrodynamics"],
+        "tags": ["Vector Analysis"],
+        "url": "/electrodynamics/electrodynamics-Vector/",
+        "teaser": null
+      },{
+        "title": "[Electrodynamics] Introduction of Electrodynamics",
+        "excerpt":"About Electrodynamics   들어가기에 앞서, 다음의 책을 공부하였습니다.   Title : Introduction to Electrodynamics (\\(4^{th}\\) Edition)   제목 : 기초전자기학 (\\(4^{th}\\) Edition)   Author : DAVID J.GRIFFITHS   역자 : 김진승   Publisher : Cambridge University Press, 2017   한국어 출판 : 북스힐, 2019   물리학에서 근본적으로 알련진 힘은 총...","categories": ["electrodynamics"],
+        "tags": ["Introduction"],
+        "url": "/electrodynamics/electrodynamics-introduce/",
+        "teaser": null
       }]
