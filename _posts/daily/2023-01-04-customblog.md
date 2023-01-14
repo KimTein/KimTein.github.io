@@ -12,6 +12,7 @@ date : 2023-01-04
 last_modified_at: 2023-01-04 18:09:30 +0900
 author_profile: true
 sidebar_main: true  
+publishd : false
 ---
 <!-- outline-start -->
 테마를 꾸밀 때 [식빵맘][ansohgit](ansohxxn)님의 깃허브를 참고하였습니다.  
