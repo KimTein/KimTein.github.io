@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-12T18:51:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily]Developing my lab. website</title><link href="http://localhost:4000/daily/daily-website/" rel="alternate" type="text/html" title="[Daily]Developing my lab. website" /><published>2023-01-12T00:00:00+09:00</published><updated>2023-01-12T12:00:00+09:00</updated><id>http://localhost:4000/daily/daily-website</id><content type="html" xml:base="http://localhost:4000/daily/daily-website/"><![CDATA[<!-- outline-start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-14T14:41:12+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Daily]Developing my lab. website</title><link href="http://localhost:4000/daily/daily-website/" rel="alternate" type="text/html" title="[Daily]Developing my lab. website" /><published>2023-01-12T00:00:00+09:00</published><updated>2023-01-12T12:00:00+09:00</updated><id>http://localhost:4000/daily/daily-website</id><content type="html" xml:base="http://localhost:4000/daily/daily-website/"><![CDATA[<!-- outline-start -->
 <p>제가 속해있는 연구실 AMS LAB. 대표 웹사이트를 제작중입니다. 
 <br />
 Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.
@@ -33,9 +33,9 @@ Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.
 <br />
   Hereafter, we consider only the former. (Don’t involve magnetic phenomena). The electric field strength (<em>E</em>) at a given time (<em>t</em>) is expressed by</p>
 
-\[E = E_0cos2\pi vt \tag{1}\]
+\[E = E_0cos2\pi \nu t \tag{1}\]
 
-<p>\(E_0\) is the amplitude, \(v\) is the frequency of radiation.</p>
+<p>\(E_0\) is the amplitude, \(\nu\) is the frequency of radiation.</p>
 
 <p><br />
   The distance between two points of the same phase in successive waves is called the <em>“wavelength”</em> , \(\lambda\), which us measured in units.(\(\mathring{A}\)(angstrom), \(nm\)(nanometer), \(m\mu\)(millimicron), and \(cm\)(centimeter)). The relationships between them are:</p>
@@ -44,28 +44,28 @@ Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.
 
 <h2 id="frequency">Frequency</h2>
 
-<p>  The frequency, \(v\) is the number of waves in the distance light travels in one second. Thus,</p>
+<p>  The frequency, \(\nu\) is the number of waves in the distance light travels in one second. Thus,</p>
 
-\[v = \frac{c}{\lambda} \tag{3}\]
+\[\nu = \frac{c}{\lambda} \tag{3}\]
 
 <p>\(c\) is the velocity of light \((3 \times 10^{10} cm/s)\). And if \(\lambda\) is in the unit of centimeters, its dimension is \((cm/s)/(cm) = 1/s\). This “reciporal second” unit is also called the “hertz” \((Hz)\).
-  There’s another parameter is the <em>“wavenumber”</em>, \(\tilde{v}\) defined by</p>
+  There’s another parameter is the <em>“wavenumber”</em>, \(\tilde{\nu}\) defined by</p>
 
-\[\tilde{v} = \frac{v}{c} \tag{4}\]
+\[\tilde{\nu} = \frac{\nu}{c} \tag{4}\]
 
-<p>  The difference between \(v\) and \(\tilde{v}\) is obvious. It has the dimension of \((1/s)/(cm/s) = 1/cm.\) By combining Eq.(3),Eq.(4) we have</p>
+<p>  The difference between \(\nu\) and \(\tilde{\nu}\) is obvious. It has the dimension of \((1/s)/(cm/s) = 1/cm.\) By combining Eq.(3),Eq.(4) we have</p>
 
-\[\tilde{v} = \frac{v}{c} = \frac{1}{\lambda}(cm^{-1}) \tag{5}\]
+\[\tilde{\nu} = \frac{\nu}{c} = \frac{1}{\lambda}(cm^{-1}) \tag{5}\]
 
 <p>  Also, we can express by \(v\)</p>
 
-\[v = \frac{c}{\lambda} = c \tilde{v} \tag{6}\]
+\[\nu = \frac{c}{\lambda} = c \tilde{\nu} \tag{6}\]
 
-<p>  As shown earlier, the wavenumber\((\tilde{v})\) and frequency \((v)\) are different parameters, yet these two terms are often used interchangeably. Thus, we can express by <strong>IR</strong> and <strong>Raman spectrosopists</strong> such as “frequency shift of \(10cm^{-1}\)”.</p>
+<p>  As shown earlier, the wavenumber\((\tilde{\nu})\) and frequency \((\nu)\) are different parameters, yet these two terms are often used interchangeably. Thus, we can express by <strong>IR</strong> and <strong>Raman spectrosopists</strong> such as “frequency shift of \(10 \;cm^{-1}\)”.</p>
 <h2 id="interacts-with-an-electromagetic-field">Interacts with an electromagetic field</h2>
 <p>  We can know a transfer energy from the field to the molecule and it can occur only when Bohr’s frequency condition is satisfied.(If a molecule interacts with an electromagetic field).</p>
 
-\[\Delta E = hv = h\frac{c}{\lambda} = hc\tilde{v} \tag{7}\]
+\[\Delta E = h\nu = h\frac{c}{\lambda} = hc\tilde{\nu} \tag{7}\]
 
 <p>  Here \(h\) is Planck’s constant \((6.62 \times 10^{-27}erg\; s)\) and \(\Delta E\) is the difference in energy between two quantized states. Thus, \(\tilde{v}\) is directly proportional to the energy of transition.</p>
 
@@ -79,7 +79,7 @@ Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.
 
 <p>  We can express \(\Delta E\) in terms of various energy units. Thus, \(1 cm^{-1}\) is :</p>
 
-\[\begin{align} \Delta E &amp;= E^2 - E^1 = hc\tilde{v} \\ &amp;=[6.62 \times 10^{-27} (erg \; s)][3 \times 10^{10} (cm/s)][1(1/cm)] \\&amp;= 1.99 \times 10^{-16} &amp;\; (erg/molecule) \\ &amp;= 1.99 \times 10^{-23} &amp;\; (joule/molecule)\\ &amp;= 2.86 &amp;\; (cal/mole) \\ &amp;=1.24 \times 10^{-4} &amp;\; (eV/molecule) \end{align}\]
+\[\begin{align} \Delta E &amp;= E^2 - E^1 = hc\tilde{\nu} \\ &amp;=[6.62 \times 10^{-27} (erg \; s)][3 \times 10^{10} (cm/s)][1(1/cm)] \\&amp;= 1.99 \times 10^{-16} &amp;\; (erg/molecule) \\ &amp;= 1.99 \times 10^{-23} &amp;\; (joule/molecule)\\ &amp;= 2.86 &amp;\; (cal/mole) \\ &amp;=1.24 \times 10^{-4} &amp;\; (eV/molecule) \end{align}\]
 
 <h2 id="observed-region">Observed Region</h2>
 
@@ -118,9 +118,65 @@ Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.
 <hr />
 <figcaption style="text-align: center;">
 [Figure. 4] Two atoms connected by a chemical bond </figcaption>
-<p><br /></p>
+<p><br />
+  Each masses of atom 1 and 2 are \(m_1\) and \(m_2\) and \(r_1\) and \(r_2\) are the distances from the center of gravity (C.G.) to the atoms designated. Thus, \(r_1 + r_2\) is the equilibrium distance. Then, the conservation requires the ralationships:</p>
 
-<hr />
+\[\begin{align} m_1r_1 &amp;= m_2r_2 \tag{9} \\ m_1(r_1 + x_1) &amp;= m_2(r_2 + x_2) \tag{10} \end{align}\]
+
+<p>  Eq.9 and Eq.10 combine</p>
+
+\[x_1 = \Big(\frac{m_2}{m_1}\Big)x_2 \quad \text{or} \quad  x_2=\Big(\frac{m_1}{m_2}\Big)x_1 \tag{11}\]
+
+<p>  In the classical treatment, we can regard the chemical bond as a spring. It obeys the Hooke’s law, so we can express the restoring force, \(f\) :</p>
+
+\[f = -K(x_1 + x_2) \tag{12}\]
+
+<p>  Where K is the force constant, and the directions of the force are opposite to each other. Now, combining the Eq.11 and Eq.12, we obtain :</p>
+
+\[f = -K \Big(\frac{m_1 + m_2}{m_1}\Big) = -K \Big(\frac{m_1 + m_2}{m_2}\Big) \tag {13}\]
+
+<p>  Using Newton’s equation of motion, we obtain for each atom as :</p>
+
+\[\begin{align} m_1\frac{d^2 x_1}{dt^2} = -K \Big(\frac{m_1 + m_2}{m_2}\Big)x1 \\ m_2\frac{d^2 x_2}{dt^2} = -K \Big(\frac{m_1 + m_2}{m_2}\Big)x2 \tag{14} \end{align}\]
+
+<p>  Multiply for each atom \(\Big(\frac{m_2}{m_1 + m_2} \Big)\) and adding, we obtain :</p>
+
+\[\frac{m_1 m_2}{m_1 + m_2} \Big(\frac{d^2 x_1}{dt^2} + \frac{d^2 x_2}{dt^2}\Big) = -K(x_1 + x_2) \tag{15}\]
+
+<p>  Introducing the reduced mass \((\mu)\) and the displacement \((q = x_1 + x_2)\), the Eq.15 is written as :</p>
+
+\[\mu \frac{d^2 q}{dt^2} = -Kq \tag{16}\]
+
+<p>  Here, the solution of thie differential equation is</p>
+
+\[q=q_0 sin(2\pi \nu_0 t + \varphi) \tag{17}\]
+
+<p>where \(q_0\) is the maximum displacement and \(\varphi\) is the phase constant.(depends on the inital conditions.) \(v_0\) is the classical vibrational frequency given by</p>
+
+\[\nu_0 = \frac{1}{2\pi} \sqrt{\frac{K}{\mu}} \tag{18}\]
+
+<p>  We can calculate the potential energy \((V)\) and the kinetic energy \((T)\) as :</p>
+
+\[\begin{align}
+ dV &amp;= -f\;dq = Kq\;dq \\
+V &amp;= \frac{1}{2}Kq^2  \\ 
+&amp;=\frac{1}{2} Kq^2_0 sin^2(2\pi \nu_0 t + \varphi) \\
+&amp;=2\pi^2 \nu_0^2 \mu q^2_0 sin^2(2\pi\nu_0 t + \varphi) \tag{19}\\ \\ 
+T &amp;= \frac{1}{2} m_1 \Big(\frac{dx_1}{dt}\Big)^2 + \frac{1}{2} m_2 \Big(\frac{dx_2}{dt} \Big)^2 \\
+&amp;= \frac{1}{2}\mu \Big(\frac{dq}{dt}\Big)^2 \\
+&amp;= 2\pi^2 \nu^2_0 \mu q_0^2 cos^2(2\pi \nu_0 t + \varphi) 
+ \tag{20} 
+ \end{align}\]
+
+<p>  Thus, the total energy \((E)\) is :</p>
+
+\[\begin{align}
+ E &amp;= T + V \\
+&amp;=2\pi^2\nu^2_0q_0^2 \quad (\because sin^2 x + cos^2 x  = 1) \\
+&amp;= constant
+\tag{21} 
+\end{align}\]
+
 <p><a href="#" class="btn btn--primary align-right">TOP</a></p>
 
 <!-- 수식넣기
@@ -136,7 +192,7 @@ $$
 
 <hr />
 
-<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Introduce of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduce of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Introduction of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduction of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
 <hr />
 
 <p> First of all, I study using the above following books.

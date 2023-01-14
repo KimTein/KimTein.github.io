@@ -1,5 +1,5 @@
 ---
-title: "[Raman] Introduce of Raman Spectroscopy"
+title: "[Raman] Introduction of Raman Spectroscopy"
 excerpt : "About Raman Spectrocopy"
 
 categories: 
