@@ -22,7 +22,6 @@ published: true
 <br>
 
 # Energy Units and Molecular Spectra
-{: .text-center}
 ___
 ## Plane Polarized electromagetic radiation
 <br>
@@ -114,7 +113,7 @@ ___
 <br>
 
 # Vibration of a Diatomic Molecule
-{: .text-center}
+
 
 ## Classical treatment
 
@@ -165,7 +164,7 @@ $$\nu_0 = \frac{1}{2\pi} \sqrt{\frac{K}{\mu}} \tag{18} $$
 
 &nbsp; We can calculate the potential energy $$(V) $$ and the kinetic energy $$(T)$$ as :
 
-$$ \begin{align}
+$$ \begin{align*}
  dV &= -f\;dq = Kq\;dq \\
 V &= \frac{1}{2}Kq^2  \\ 
 &=\frac{1}{2} Kq^2_0 sin^2(2\pi \nu_0 t + \varphi) \\
@@ -174,21 +173,71 @@ T &= \frac{1}{2} m_1 \Big(\frac{dx_1}{dt}\Big)^2 + \frac{1}{2} m_2 \Big(\frac{dx
 &= \frac{1}{2}\mu \Big(\frac{dq}{dt}\Big)^2 \\
 &= 2\pi^2 \nu^2_0 \mu q_0^2 cos^2(2\pi \nu_0 t + \varphi) 
  \tag{20} 
- \end{align} $$
+ \end{align*} $$
 
  &nbsp; Thus, the total energy $$(E)$$ is :
 
- $$ \begin{align}
+ $$ \begin{align*}
  E &= T + V \\
 &=2\pi^2\nu^2_0q_0^2 \quad (\because sin^2 x + cos^2 x  = 1) \\
 &= constant
 \tag{21} 
-\end{align} $$
+\end{align*} $$
+
+<br>
+
+<center>
+<img alt="Potentail energy diagram" src="/assets/images/posts/raman/Potential energy diagram.png" width = 500>
+</center>
+___
+<figcaption style="text-align: center;">
+[Figure. 5] Potential energy diagram for a harmonic oscillator. </figcaption>
+<br>
+
+&nbsp; [Figure. 5] is based on the book. It shows the plot of $$V$$ as a function of $$q$$ and looks like a vibrator called a _harmonic oscillator._
+
+## Quantum Mechanics
+
+&nbsp; Considering a motion of a single particle having mass $$\mu$$, the vibration can be written for the Schrödinger equation as 
+
+$$ \frac{d^2 \psi}{dq^2} + \frac{8 \pi^2 \mu }{h^2} \Big(E-\frac{1}{2}Kq^2 \Big)\psi = 0 \tag{22}$$
+
+&nbsp; If the $$\psi$$ must be single-valued,finite and continuous, the eigenvalues are written as by solving the Eq.22 :
+
+$$ E_v = h\nu \Big(v + \frac{1}{2} \Big) = hc\tilde{\nu} \Big( v + \frac{1}{2}\Big) \tag{23} $$
+
+&nbsp; And the frequency of vibration is as follows seems like Eq.18
+
+$$\nu = \frac{1}{2\pi} \sqrt{\frac{K}{\mu}} \tag{24} $$
+
+where $$v$$ is the [vibrational quantum number][linkvqn], and having the values 0,1,2... So, the corresponding eigenfunctions are :
+
+[linkvqn]: https://en.wikipedia.org/wiki/Molecular_vibration
+
+$$ \psi _v = \frac{(\alpha / \pi)^{1/4}}{\sqrt{2^{\textnormal{v}} v!}}e^{-\alpha q^2 / 2} H_v(\sqrt{\alpha q}) \tag{25} $$
+
+where $$ \alpha = 2\pi \sqrt{\mu K/h} = 4\pi^2 \mu v/h $$ and $$H_v(\sqrt{\alpha q}) $$ is a [Hermite polynomial][linkHermite] of the $$\textnormal{v}^{th} $$ degree.
+
+[linkHermite]:https://en.wikipedia.org/wiki/Hermite_polynomials
+
+&nbsp; Thus, the eigenvalues and the corresponding eigenfunctions are
+
+$$ \begin{align*} 
+&v = 0, \quad E_0 = \frac{1}{2} hv, \quad \psi _0 = (\alpha / \pi)^{1/4} e^{-\alpha q^2 /2} \\
+&v = 1, \quad E_1 = \frac{3}{2} hv, \quad \psi _1 = (\alpha / \pi)^{1/4} 2^{1/2}qe^{-\alpha q^2 /2} \tag{26}
+\end{align*} $$
+
+$$ \vdots $$
+
+## Difference of the frequency
+
+&nbsp; The quantum mechanical frequency(Eq.24) is same as the classical frequency(Eq.18). However, there are some differences noted between the two treatments.
+
+&nbsp; First, 
 
 
 
-
-
+___
 [TOP](#){: .btn .btn--primary }{: .align-right}
 
 <!-- 수식넣기
