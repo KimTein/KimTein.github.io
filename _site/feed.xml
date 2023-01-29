@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-15T20:23:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Electrodynamics] Vector Analysis</title><link href="http://localhost:4000/electrodynamics/electrodynamics-Vector/" rel="alternate" type="text/html" title="[Electrodynamics] Vector Analysis" /><published>2023-01-14T00:00:00+09:00</published><updated>2023-01-14T02:44:30+09:00</updated><id>http://localhost:4000/electrodynamics/electrodynamics-Vector</id><content type="html" xml:base="http://localhost:4000/electrodynamics/electrodynamics-Vector/"><![CDATA[<h1 id="벡터해석">벡터해석</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-29T19:26:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[Electrodynamics] Vector Analysis</title><link href="http://localhost:4000/electrodynamics/electrodynamics-Vector/" rel="alternate" type="text/html" title="[Electrodynamics] Vector Analysis" /><published>2023-01-14T00:00:00+09:00</published><updated>2023-01-14T02:44:30+09:00</updated><id>http://localhost:4000/electrodynamics/electrodynamics-Vector</id><content type="html" xml:base="http://localhost:4000/electrodynamics/electrodynamics-Vector/"><![CDATA[<h1 id="벡터해석">벡터해석</h1>
 <p><br />
   전자기학을 공부하기 위해선 벡터를 해석할 줄 알아야합니다. 전자기학 뿐만 아니라 벡터는 모든 개념에서 기초가 되므로 간단하게 짚고 넘어가며 알아보겠습니다. 자세한 내용은 관련 서적을 참고하시면 좋습니다.</p>
 
@@ -511,9 +511,9 @@ T &amp;= \frac{1}{2} m_1 \Big(\frac{dx_1}{dt}\Big)^2 + \frac{1}{2} m_2 \Big(\fra
 
 <p>where \(v\) is the <a href="https://en.wikipedia.org/wiki/Molecular_vibration">vibrational quantum number</a>, and having the values 0,1,2… So, the corresponding eigenfunctions are :</p>
 
-\[\psi _v = \frac{(\alpha / \pi)^{1/4}}{\sqrt{2^{\textnormal{v}} v!}}e^{-\alpha q^2 / 2} H_v(\sqrt{\alpha q}) \tag{25}\]
+\[\psi _v = \frac{(\alpha / \pi)^{1/4}}{\sqrt{2^{\mathrm{v}} v!}}e^{-\alpha q^2 / 2} H_v(\sqrt{\alpha q}) \tag{25}\]
 
-<p>where \(\alpha = 2\pi \sqrt{\mu K/h} = 4\pi^2 \mu v/h\) and \(H_v(\sqrt{\alpha q})\) is a <a href="https://en.wikipedia.org/wiki/Hermite_polynomials">Hermite polynomial</a> of the \(\textnormal{v}^{th}\) degree.</p>
+<p>where \(\alpha = 2\pi \sqrt{\mu K/h} = 4\pi^2 \mu v/h\) and \(H_v(\sqrt{\alpha q})\) is a <a href="https://en.wikipedia.org/wiki/Hermite_polynomials">Hermite polynomial</a> of the $\mathrm{v}^{th} $ degree.</p>
 
 <p>  Thus, the eigenvalues and the corresponding eigenfunctions are</p>
 
@@ -524,11 +524,112 @@ T &amp;= \frac{1}{2} m_1 \Big(\frac{dx_1}{dt}\Big)^2 + \frac{1}{2} m_2 \Big(\fra
 
 \[\vdots\]
 
-<h2 id="difference-of-the-frequency">Difference of the frequency</h2>
+<h3 id="difference-of-the-frequency-between-classical--quantum-mechanical">Difference of the frequency between classical &amp; quantum-mechanical</h3>
 
 <p>  The quantum mechanical frequency(Eq.24) is same as the classical frequency(Eq.18). However, there are some differences noted between the two treatments.</p>
 
-<p>  First,</p>
+<p>  First, the zero-state Engergy. Classicaly, the energy <em>E</em> is zero when <em>q</em> is zero.</p>
+
+\[q=0 \rightarrow E=0 \tag{27-1}\]
+
+<p>But, in the Quantum-mechanically, the lowest <em>E</em> state \((v=0)\) has the energy, \(\frac{1}{2} h\nu\) (=zero point energy).
+That’s because the Heisenberg’s uncertainly prinicple.</p>
+
+\[v=0 \rightarrow E = \frac{1}{2} h\nu \quad (\because uncertainly principle) \tag{27-2}\]
+
+<p>  Second, continuity of a vibrator. Classicaly, vibrator can change contiuosly. But In quantum mechanics, the energy, <em>E</em> can change only in units of \(h\nu\).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Vibrator</th>
+      <th style="text-align: center">Continuity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Classical</td>
+      <td style="text-align: center">continuous</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Quantum</td>
+      <td style="text-align: center">units of $h\nu$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p>  Thirdly, probability of breakaway from the parabola. Classically, the vibration is confined within the parabola. Because if $\vert q \vert &gt; \vert q_0 \vert$, the <em>T</em> becomes negative. Contrary, in quantum-mechanics, the probability (of finding <em>q</em> outside the parabola) is not zero since the <a href="https://en.wikipedia.org/wiki/Quantum_tunnelling"><em>tunnel effect</em></a>.</p>
+
+<h2 id="hot-band">Hot Band</h2>
+
+<center>
+<a href="https://en.wikipedia.org/wiki/Morse_potential">
+<img alt="Internuclear Distance" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Morse-potential.png/800px-Morse-potential.png" width="500" />
+</a>
+</center>
+<hr />
+<figcaption style="text-align: center;">
+[Figure. 6] Internuclear Distance </figcaption>
+<p><br /></p>
+
+<p>  Hereafter, talk about the separation between the two vibrational levels. <br />
+In the case of a harmonic oscillator, that is always same with $h\nu$. But an actual molecule is not the case. The potential is approximated by the <a href="https://en.wikipedia.org/wiki/Morse_potential">Morse potential function</a> shown by the solid curve like [Figure. 6].</p>
+
+\[V = D_e(1-e^{-\beta q})^2 \tag{28}\]
+
+<p>where $D_e$ is the dissociation energy, $\beta$ is a measure of the curvature an the bottom of the potentail well.<br />
+The eigenvalues by solving with the Schrödinger equation :</p>
+
+\[E_v = hcw_e \Big(v + \frac{1}{2} \Big) - hc\chi_e w_e \Big(v+\frac{1}{2} \Big )^2 + \cdots \tag{29}\]
+
+<p>where $w_e$ is the wavenumber corrected for anharmonicity, $\chi_e w_e$ indicates the magnitude of anharmonicity.<br />
+  By Eq.29, the <em>E</em> levels of the anharmonic oscillator are no longer equidistant. And the separtion decreases with increasing $\nu$ like [Figure. 6].<br />
+  According to quantum-mechanics, Only in a harmonic oscillator, those transitions involving $\Delta v = \pm 1 $ are allowed. Else, the transitions involving $\Delta v = \pm 2, \pm 3, \dots$ (overtones). Both in <strong>IR</strong> and <strong>Raman spectra</strong>, many $\Delta v = \pm 1 $ transitions that of $v = 0 \leftrightarrow 1 $ appears most strongly. That is expected from the <a href="https://en.wikipedia.org/wiki/Maxwell–Boltzmann_distribution">Maxwell-Boltzmann distribution law</a>, which states that the population ration of the $v=1 $ and $v = 0$ states is given by</p>
+
+\[\frac{P_{v=1}}{P_{v=0}} = e^{-\Delta E/kT} \tag{30}\]
+
+<p>where $\Delta E$ is the energy difference between the two states, $k$ is Boltzmann’s constant $(1.3807 \times 10^{-16} \; erg/degree)$, and $T$ is the absolute temperature.
+Since $\Delta E = hc\tilde{v}$, the ratio is inversely proportional with $\tilde{v}$. $(\frac{P_{v=1}}{P_{v=0}} \propto \frac{1}{\tilde{v}}) $</p>
+
+<p>  Example, the $\tilde{v}$ of $\mathrm{H}_2$ is $4,160 \; cm^{-1}$, $T$ is room temperature $(300K)$</p>
+
+\[\begin{align*}
+    kT &amp;= 1.38 \times 10^{-6} \; (erg/degree) \quad 300 \; (degree) \\
+    &amp;= [4.14 \times 10^{-14} \; (erg)] / [1.99 \times 10^{-16} \; (erg)(cm^{-1})] \\
+    &amp;= 208 \; (cm^{-1}) \tag{31} \\
+  \end{align*}\]
+
+<p>Then, the ratio is</p>
+
+\[\frac{P_{v=1}}{P_{v=0}}=e^{-hc(4,160)/208} = 2.19 \times 10^{-9} \tag{32}\]
+
+<p>That means almost all of the molecules are at $v=0$.
+<br />
+  If $\tilde{v} = 213 \; cm^{-1} $ ( $I_2$ molecule), the ratio is 0.36. That is abpit 27% of the $I_2$ molecules are at $v=1$ state. In this case, the transition $ v = 1 \rightarrow 2 $ should be observed on the low-frequency side of the fundamental with much less intensity. Such a transition is called a <a href="https://en.wikipedia.org/wiki/Hot_band"><strong><em>“hot band”</em></strong></a> since it tends to appear at higher temperatures.</p>
+
+<h1 id="origin-of-raman-spectra">Origin of Raman Spectra</h1>
+
+<h2 id="ir-absorption">IR absorption</h2>
+
+<p>  Now measure the absorption of IR by the sample as a function of frequency. The molecule absorbs $\Delta E = hv$ from the IR source at each vibrational transition. The intensity of IR absorption is governed by the <a href="https://en.wikipedia.org/wiki/Beer–Lambert_law"><strong>Beer-Lambert Law</strong></a> :</p>
+
+\[I = I_0 e^{-\varepsilon c d} \tag{33}\]
+
+<p>In IR spectroscopy, it’s customary to plot the percentage transmission $(T)$ versus wave number $(\tilde{\nu})$:</p>
+
+\[T(\%) = \frac{I}{I_0} \times 100 \tag{34}\]
+
+<p>Note : $T(\%)$ is not proportional to $c$. 
+<br />
+For quntitative analysis, the absorbance $(A)$ defined here should be used:</p>
+
+\[A = log\frac{I_0}{I} = \varepsilon cd \tag{35}\]
+
+<h2 id="raman-spectra">Raman spectra</h2>
+
+<p> </p>
 
 <hr />
 <p><a href="#" class="btn btn--primary align-right">TOP</a></p>

@@ -214,9 +214,9 @@ where $$v$$ is the [vibrational quantum number][linkvqn], and having the values 
 
 [linkvqn]: https://en.wikipedia.org/wiki/Molecular_vibration
 
-$$ \psi _v = \frac{(\alpha / \pi)^{1/4}}{\sqrt{2^{\textnormal{v}} v!}}e^{-\alpha q^2 / 2} H_v(\sqrt{\alpha q}) \tag{25} $$
+$$ \psi _v = \frac{(\alpha / \pi)^{1/4}}{\sqrt{2^{\mathrm{v}} v!}}e^{-\alpha q^2 / 2} H_v(\sqrt{\alpha q}) \tag{25} $$
 
-where $$ \alpha = 2\pi \sqrt{\mu K/h} = 4\pi^2 \mu v/h $$ and $$H_v(\sqrt{\alpha q}) $$ is a [Hermite polynomial][linkHermite] of the $$\textnormal{v}^{th} $$ degree.
+where $$ \alpha = 2\pi \sqrt{\mu K/h} = 4\pi^2 \mu v/h $$ and $$H_v(\sqrt{\alpha q}) $$ is a [Hermite polynomial][linkHermite] of the $\mathrm{v}^{th} $ degree.
 
 [linkHermite]:https://en.wikipedia.org/wiki/Hermite_polynomials
 
@@ -229,11 +229,117 @@ $$ \begin{align*}
 
 $$ \vdots $$
 
-## Difference of the frequency
+### Difference of the frequency between classical & quantum-mechanical
 
 &nbsp; The quantum mechanical frequency(Eq.24) is same as the classical frequency(Eq.18). However, there are some differences noted between the two treatments.
 
-&nbsp; First, 
+&nbsp; First, the zero-state Engergy. Classicaly, the energy _E_ is zero when _q_ is zero. 
+
+$$ q=0 \rightarrow E=0 \tag{27-1} $$
+
+But, in the Quantum-mechanically, the lowest _E_ state $$(v=0)$$ has the energy, $$\frac{1}{2} h\nu $$ (=zero point energy).
+That's because the Heisenberg's uncertainly prinicple.
+
+$$ v=0 \rightarrow E = \frac{1}{2} h\nu \quad (\because uncertainly principle) \tag{27-2} $$
+
+&nbsp; Second, continuity of a vibrator. Classicaly, vibrator can change contiuosly. But In quantum mechanics, the energy, _E_ can change only in units of $$h\nu$$. 
+
+
+
+|Vibrator|Continuity|
+|:------:|:------:|
+|Classical|continuous|
+|Quantum|units of $h\nu$|
+
+<br>
+
+&nbsp; Thirdly, probability of breakaway from the parabola. Classically, the vibration is confined within the parabola. Because if $\vert q \vert > \vert q_0 \vert$, the _T_ becomes negative. Contrary, in quantum-mechanics, the probability (of finding _q_ outside the parabola) is not zero since the [_tunnel effect_][linktunnel].
+
+[linktunnel]: https://en.wikipedia.org/wiki/Quantum_tunnelling
+
+## Hot Band
+
+<center>
+<a href='https://en.wikipedia.org/wiki/Morse_potential'>
+<img alt="Internuclear Distance" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Morse-potential.png/800px-Morse-potential.png" width = 500>
+</a>
+</center>
+___
+<figcaption style="text-align: center;">
+[Figure. 6] Internuclear Distance </figcaption>
+<br>
+
+&nbsp; Hereafter, talk about the separation between the two vibrational levels. \\
+In the case of a harmonic oscillator, that is always same with $h\nu$. But an actual molecule is not the case. The potential is approximated by the [Morse potential function][linkMorse] shown by the solid curve like [Figure. 6]. 
+
+[linkMorse]: https://en.wikipedia.org/wiki/Morse_potential
+
+$$ V = D_e(1-e^{-\beta q})^2 \tag{28} $$
+
+where $D_e$ is the dissociation energy, $\beta$ is a measure of the curvature an the bottom of the potentail well.\\
+The eigenvalues by solving with the Schrödinger equation :
+
+$$ E_v = hcw_e \Big(v + \frac{1}{2} \Big) - hc\chi_e w_e \Big(v+\frac{1}{2} \Big )^2 + \cdots \tag{29} $$
+
+where $w_e$ is the wavenumber corrected for anharmonicity, $\chi_e w_e$ indicates the magnitude of anharmonicity.\\
+&nbsp; By Eq.29, the _E_ levels of the anharmonic oscillator are no longer equidistant. And the separtion decreases with increasing $\nu$ like [Figure. 6].\\
+&nbsp; According to quantum-mechanics, Only in a harmonic oscillator, those transitions involving $\Delta v = \pm 1 $ are allowed. Else, the transitions involving $\Delta v = \pm 2, \pm 3, \dots$ (overtones). Both in **IR** and **Raman spectra**, many $\Delta v = \pm 1 $ transitions that of $v = 0 \leftrightarrow 1 $ appears most strongly. That is expected from the [Maxwell-Boltzmann distribution law][linkMaxwell], which states that the population ration of the $v=1 $ and $v = 0$ states is given by 
+
+[linkMaxwell]:https://en.wikipedia.org/wiki/Maxwell–Boltzmann_distribution
+
+$$\frac{P_{v=1}}{P_{v=0}} = e^{-\Delta E/kT} \tag{30} $$
+
+where $\Delta E$ is the energy difference between the two states, $k$ is Boltzmann's constant $(1.3807 \times 10^{-16} \; erg/degree)$, and $T$ is the absolute temperature.
+Since $\Delta E = hc\tilde{v}$, the ratio is inversely proportional with $\tilde{v}$. $(\frac{P_{v=1}}{P_{v=0}} \propto \frac{1}{\tilde{v}}) $
+
+&nbsp; Example, the $\tilde{v}$ of $\mathrm{H}_2$ is $4,160 \; cm^{-1}$, $T$ is room temperature $(300K)$
+
+
+$$ 
+  \begin{align*}
+    kT &= 1.38 \times 10^{-6} \; (erg/degree) \quad 300 \; (degree) \\
+    &= [4.14 \times 10^{-14} \; (erg)] / [1.99 \times 10^{-16} \; (erg)(cm^{-1})] \\
+    &= 208 \; (cm^{-1}) \tag{31} \\
+  \end{align*} 
+$$
+
+Then, the ratio is
+
+$$ \frac{P_{v=1}}{P_{v=0}}=e^{-hc(4,160)/208} = 2.19 \times 10^{-9} \tag{32} $$
+
+That means almost all of the molecules are at $v=0$.
+<br>
+&nbsp; If $\tilde{v} = 213 \; cm^{-1} $ ( $I_2$ molecule), the ratio is 0.36. That is abpit 27% of the $I_2$ molecules are at $v=1$ state. In this case, the transition $ v = 1 \rightarrow 2 $ should be observed on the low-frequency side of the fundamental with much less intensity. Such a transition is called a [**_"hot band"_**][linkhotband] since it tends to appear at higher temperatures.
+
+[linkhotband]: https://en.wikipedia.org/wiki/Hot_band
+
+# Origin of Raman Spectra
+
+## IR absorption
+
+&nbsp; Now measure the absorption of IR by the sample as a function of frequency. The molecule absorbs $\Delta E = hv$ from the IR source at each vibrational transition. The intensity of IR absorption is governed by the [**Beer-Lambert Law**][linkBeer] :
+
+[linkBeer]: https://en.wikipedia.org/wiki/Beer–Lambert_law
+
+$$ I = I_0 e^{-\varepsilon c d} \tag{33} $$
+
+In IR spectroscopy, it's customary to plot the percentage transmission $(T)$ versus wave number $(\tilde{\nu})$:
+
+$$ T(\%) = \frac{I}{I_0} \times 100 \tag{34} $$
+
+Note : $T(\%)$ is not proportional to $c$. 
+<br>
+For quntitative analysis, the absorbance $(A)$ defined here should be used:
+
+$$ A = log\frac{I_0}{I} = \varepsilon cd \tag{35} $$
+
+## Raman spectra
+
+&nbsp; 
+
+
+
+
 
 
 
