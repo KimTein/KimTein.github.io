@@ -70,4 +70,10 @@ var store = [{
         "tags": ["Anaconda"],
         "url": "/ai/setup/",
         "teaser": null
+      },{
+        "title": "[A.I] Visual Studio Setup",
+        "excerpt":"Visual Studio Code &amp; Anaconda 연동하기   저는 맥북 m1-air 기기를 사용하였습니다. 아나콘다 가상환경을 설치한 후 VS code와 연동합니다. VSC는 프로그래밍을 위한 환경을 제공하는 Editor입니다. 다른 여러 에디터가 있지만 저는 마이크로소프트사의 VSC를 사용하였습니다. Installing extensions VS code 를 홈페이지에서 정상적으로 설치하셨을 경우 다음의 화면을 보실 것입니다. % /bin/bash -c \"$(curl...","categories": ["ai"],
+        "tags": ["Anaconda"],
+        "url": "/ai/vscsetup/",
+        "teaser": null
       }]

@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T18:08:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[A.I] About this page</title><link href="http://localhost:4000/ai/about-aicategory/" rel="alternate" type="text/html" title="[A.I] About this page" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>http://localhost:4000/ai/about-aicategory</id><content type="html" xml:base="http://localhost:4000/ai/about-aicategory/"><![CDATA[<h1 id="about-this-page">About this page</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T18:43:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[A.I] Visual Studio Setup</title><link href="http://localhost:4000/ai/vscsetup/" rel="alternate" type="text/html" title="[A.I] Visual Studio Setup" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>http://localhost:4000/ai/vscsetup</id><content type="html" xml:base="http://localhost:4000/ai/vscsetup/"><![CDATA[<h1 id="visual-studio-code--anaconda-연동하기">Visual Studio Code &amp; Anaconda 연동하기</h1>
+
+<p>  저는 맥북 m1-air 기기를 사용하였습니다. 아나콘다 가상환경을 설치한 후 VS code와 연동합니다.
+VSC는 프로그래밍을 위한 환경을 제공하는 Editor입니다. 다른 여러 에디터가 있지만 저는 마이크로소프트사의 VSC를 사용하였습니다.</p>
+
+<h2 id="installing-extensions">Installing extensions</h2>
+
+<p>VS code 를 홈페이지에서 정상적으로 설치하셨을 경우 다음의 화면을 보실 것입니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+</code></pre></div></div>
+
+<p><img src="/assets/images/posts/ai/1.png" /></p>]]></content><author><name>Kim Tein</name></author><category term="ai" /><category term="Anaconda" /><summary type="html"><![CDATA[VSC Setup with anaconda in macbook-m1]]></summary></entry><entry><title type="html">[A.I] About this page</title><link href="http://localhost:4000/ai/about-aicategory/" rel="alternate" type="text/html" title="[A.I] About this page" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>http://localhost:4000/ai/about-aicategory</id><content type="html" xml:base="http://localhost:4000/ai/about-aicategory/"><![CDATA[<h1 id="about-this-page">About this page</h1>
 
 <p>  이번 페이지에선 제가 공부하던 인공지능과 관련된 내용을 작성합니다. 공부하는 과정이기에 부족한 점이 많으니 참고하는 용도로만 사용해주시길 바랍니다.</p>]]></content><author><name>Kim Tein</name></author><category term="ai" /><summary type="html"><![CDATA[Talking about this category]]></summary></entry><entry><title type="html">[A.I] Anaconda Setup</title><link href="http://localhost:4000/ai/setup/" rel="alternate" type="text/html" title="[A.I] Anaconda Setup" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>http://localhost:4000/ai/setup</id><content type="html" xml:base="http://localhost:4000/ai/setup/"><![CDATA[<h1 id="set-up">Set Up</h1>
 
@@ -384,7 +396,13 @@ Google - Sites 기능을 이용하고 있으며 도메인 할당 중입니다.
 
 <!-- button up -->
 <hr />
-<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="lab" /><summary type="html"><![CDATA[Homepage of lab]]></summary></entry><entry><title type="html">[Raman] Basic Theory</title><link href="http://localhost:4000/raman/Raman-Basic-Theory/" rel="alternate" type="text/html" title="[Raman] Basic Theory" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-10T12:00:00+09:00</updated><id>http://localhost:4000/raman/Raman-Basic-Theory</id><content type="html" xml:base="http://localhost:4000/raman/Raman-Basic-Theory/"><![CDATA[<!-- outline-start -->
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="lab" /><summary type="html"><![CDATA[Homepage of lab]]></summary></entry><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
+<p>몸속엔 카페인이 흘러요.
+<!-- outline-end --></p>
+
+<hr />
+
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Basic Theory</title><link href="http://localhost:4000/raman/Raman-Basic-Theory/" rel="alternate" type="text/html" title="[Raman] Basic Theory" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-10T12:00:00+09:00</updated><id>http://localhost:4000/raman/Raman-Basic-Theory</id><content type="html" xml:base="http://localhost:4000/raman/Raman-Basic-Theory/"><![CDATA[<!-- outline-start -->
 <p><br /></p>
 
 <h1 id="energy-units-and-molecular-spectra">Energy Units and Molecular Spectra</h1>
@@ -708,13 +726,7 @@ $$
 \mbox{Star: } & A^\star = {x_1x_2\ldots x_k \mid k\geq 0 \mbox{ and each } x_i\in A} \tag{3}
 \end{align}
 $$
--->]]></content><author><name>Kim Tein</name></author><category term="raman" /><category term="Raman" /><summary type="html"><![CDATA[Baisc Theory of Raman Spectroscopy]]></summary></entry><entry><title type="html">[Daily] Coffee!</title><link href="http://localhost:4000/daily/coffee/" rel="alternate" type="text/html" title="[Daily] Coffee!" /><published>2023-01-08T00:00:00+09:00</published><updated>2023-01-08T14:05:30+09:00</updated><id>http://localhost:4000/daily/coffee</id><content type="html" xml:base="http://localhost:4000/daily/coffee/"><![CDATA[<!-- outline-start -->
-<p>몸속엔 카페인이 흘러요.
-<!-- outline-end --></p>
-
-<hr />
-
-<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="daily" /><summary type="html"><![CDATA[I wanna coffee]]></summary></entry><entry><title type="html">[Raman] Introduction of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduction of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
+-->]]></content><author><name>Kim Tein</name></author><category term="raman" /><category term="Raman" /><summary type="html"><![CDATA[Baisc Theory of Raman Spectroscopy]]></summary></entry><entry><title type="html">[Raman] Introduction of Raman Spectroscopy</title><link href="http://localhost:4000/raman/raman-introduce/" rel="alternate" type="text/html" title="[Raman] Introduction of Raman Spectroscopy" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-08T02:44:30+09:00</updated><id>http://localhost:4000/raman/raman-introduce</id><content type="html" xml:base="http://localhost:4000/raman/raman-introduce/"><![CDATA[<h1 class="text-left" id="about-raman-spectroscopy">About Raman Spectroscopy</h1>
 <hr />
 
 <p> First of all, I study using the above following books.
@@ -781,7 +793,4 @@ $$
 
 <p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>
 
-<p>cout « “utterance” « endl;</p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="gitblog" /><summary type="html"><![CDATA[Custom my blog]]></summary></entry><entry><title type="html">[Daily] Changing Theme!</title><link href="http://localhost:4000/daily/renewal/" rel="alternate" type="text/html" title="[Daily] Changing Theme!" /><published>2023-01-03T00:00:00+09:00</published><updated>2023-01-04T16:09:30+09:00</updated><id>http://localhost:4000/daily/renewal</id><content type="html" xml:base="http://localhost:4000/daily/renewal/"><![CDATA[<!-- outline-start -->
-<p>블로그 테마를 변경했습니다.  <br />
-기존 테마를 사용하기에는 변경할 점이 많았기에 “minimal mistake” 테마를 이용합니다.
-<!-- outline-end --></p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="gitblog" /><summary type="html"><![CDATA[Renewal my blog]]></summary></entry></feed>
+<p>cout « “utterance” « endl;</p>]]></content><author><name>Kim Tein</name></author><category term="daily" /><category term="gitblog" /><summary type="html"><![CDATA[Custom my blog]]></summary></entry></feed>
