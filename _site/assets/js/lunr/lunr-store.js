@@ -58,4 +58,16 @@ var store = [{
         "tags": ["Introduction"],
         "url": "/electrodynamics/electrodynamics-introduce/",
         "teaser": null
+      },{
+        "title": "[A.I] About this page",
+        "excerpt":"About this page     이번 페이지에선 제가 공부하던 인공지능과 관련된 내용을 작성합니다. 공부하는 과정이기에 부족한 점이 많으니 참고하는 용도로만 사용해주시길 바랍니다.  ","categories": ["ai"],
+        "tags": [],
+        "url": "/ai/about-aicategory/",
+        "teaser": null
+      },{
+        "title": "[A.I] Anaconda Setup",
+        "excerpt":"Set Up   저는 맥북 m1-air 기기를 사용하였습니다. Visual studio code가 깔려있다는 전제하에 셋업한 과정을 작성하였습니다. Homebrew install 먼저, 맥북에서 홈브루를 설치합니다. 맥북의 터미널을 실행한 후 다음의 코드를 이용합니다. % /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" Miniforge Homebrew 가 설치되었다면 이제 터미널에서 brew 명령어를 사용해 설치가 가능합니다. 저는 m1 칩으로 애플...","categories": ["ai"],
+        "tags": ["Anaconda"],
+        "url": "/ai/setup/",
+        "teaser": null
       }]

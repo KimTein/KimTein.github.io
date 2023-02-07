@@ -45,6 +45,21 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Computer</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai" %}
+                        <li><a href="/categories/ai" class=""> A.I Story </a> ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "test" %}
+                        <li><a href="/categories/test" class="">Test Story ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
