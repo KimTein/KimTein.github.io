@@ -335,7 +335,49 @@ $$ A = log\frac{I_0}{I} = \varepsilon cd \tag{35} $$
 
 ## Raman spectra
 
-&nbsp; 
+<center>
+<img alt="Differences in mechanism of Raman vs IR" src="/assets/images/posts/raman/RamanIR.jpeg" width = 500>
+</center>
+___
+<figcaption style="text-align: center;">
+[Figure. 7] Differences in mechanism of Raman vs IR (From book). </figcaption>
+<br>
+
+In [Figure. 7], Raman spectra is different from that of IR spectra. The scattered light from the sample is observed in the direction perpendicualr to the incident beam. That consists of two types : 
+
+1. Rayleigh scattering : is strong and has the same frequency as the incident beam.
+2. Raman scattering : is very weak ( $ ~ 10^{-5} $ of the incident beam) and has frequencies $ \nu_0 \pm \nu_m$
+
+At the Raman scattering, $\nu_0 - \nu_m$ is Stokes, and $\nu_0 + \nu_m$ is anti-Stokes lines. Thus, we measure the vibrational frequncy $(\nu_m)$ as a shift from the incident beam frequncy $(\nu_0)$.
+<br>
+In classical theory, Raman scattering follows:
+
+$$ E = E_0 cos 2\pi \nu_0 t \tag{36} $$
+
+If a diatomic molecule is irradiated, an electric dipole moment _P_ is induced :
+
+$$ P = \alpha E = \alpha E_0 cos 2\pi \nu_0 t \tag{37} $$
+
+The $\alpha$ is a proportionally constant ( _polarizability_). Frequency of the vibrating molecule is $\nu_m$, $q_0$ is the vibrational amplitude, the nuclear displacement _q_:
+
+$$ q = q_0 cos 2\pi \nu_m t \tag{38} $$
+
+For a small amplitude of vibration, $\alpha$ is a linear function of _q_. Thus, we can write
+
+$$ \alpha = \alpha_0 + \Big(\frac{\partial \alpha}{\partial q} \Big)_0 q_0 + \cdots \tag{39}$$
+
+Combining Eq.37 & Eq.38, we obtain :
+
+$$ 
+\begin{align} \\
+  P &= \alpha E_0 cos 2\pi \nu_0 t \\
+    &= \alpha_0 e_0 cos 2\pi \nu_0 t + \Big(\frac{\partial \alpha}{\partial q}\Big)_0 q E_0 cos 2\pi \nu_0 t \\
+    &= \alpha_0 E_0 cos 2\pi \nu_0 t + \Big(\frac{\partial \alpha}{\partial q}\Big)_0 q_0 E_0 cos2\pi \nu_0 t cos 2\pi \nu_m t \\
+    &= \alpha_0 E_0 cos 2\pi \nu_0 t + \frac{1}{2} \Big(\frac{\partial \alpha}{\partial q})_0 q_0 E_0 [cos {2\pi(\nu_0 + \nu_m)t} + cos {2\pi (\nu_0 - \nu_m)t}] 
+    \tag{39} \\
+\end{align}
+$$  
+
 
 
 

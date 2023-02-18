@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T18:43:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[A.I] Visual Studio Setup</title><link href="http://localhost:4000/ai/vscsetup/" rel="alternate" type="text/html" title="[A.I] Visual Studio Setup" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>http://localhost:4000/ai/vscsetup</id><content type="html" xml:base="http://localhost:4000/ai/vscsetup/"><![CDATA[<h1 id="visual-studio-code--anaconda-연동하기">Visual Studio Code &amp; Anaconda 연동하기</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-18T15:31:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tein’s Room</title><subtitle>Physics and AI</subtitle><author><name>Kim Tein</name><email>kimhasi1012@gmail.com</email></author><entry><title type="html">[A.I] Visual Studio Setup</title><link href="http://localhost:4000/ai/vscsetup/" rel="alternate" type="text/html" title="[A.I] Visual Studio Setup" /><published>2023-02-07T00:00:00+09:00</published><updated>2023-02-07T00:00:00+09:00</updated><id>http://localhost:4000/ai/vscsetup</id><content type="html" xml:base="http://localhost:4000/ai/vscsetup/"><![CDATA[<h1 id="visual-studio-code--anaconda-연동하기">Visual Studio Code &amp; Anaconda 연동하기</h1>
 
 <p>  저는 맥북 m1-air 기기를 사용하였습니다. 아나콘다 가상환경을 설치한 후 VS code와 연동합니다.
 VSC는 프로그래밍을 위한 환경을 제공하는 Editor입니다. 다른 여러 에디터가 있지만 저는 마이크로소프트사의 VSC를 사용하였습니다.</p>
@@ -713,7 +713,48 @@ For quntitative analysis, the absorbance $(A)$ defined here should be used:</p>
 
 <h2 id="raman-spectra">Raman spectra</h2>
 
-<p> </p>
+<center>
+<img alt="Differences in mechanism of Raman vs IR" src="/assets/images/posts/raman/RamanIR.jpeg" width="500" />
+</center>
+<hr />
+<figcaption style="text-align: center;">
+[Figure. 7] Differences in mechanism of Raman vs IR (From book). </figcaption>
+<p><br /></p>
+
+<p>In [Figure. 7], Raman spectra is different from that of IR spectra. The scattered light from the sample is observed in the direction perpendicualr to the incident beam. That consists of two types :</p>
+
+<ol>
+  <li>Rayleigh scattering : is strong and has the same frequency as the incident beam.</li>
+  <li>Raman scattering : is very weak ( $ ~ 10^{-5} $ of the incident beam) and has frequencies $ \nu_0 \pm \nu_m$</li>
+</ol>
+
+<p>At the Raman scattering, $\nu_0 - \nu_m$ is Stokes, and $\nu_0 + \nu_m$ is anti-Stokes lines. Thus, we measure the vibrational frequncy $(\nu_m)$ as a shift from the incident beam frequncy $(\nu_0)$.
+<br />
+In classical theory, Raman scattering follows:</p>
+
+\[E = E_0 cos 2\pi \nu_0 t \tag{36}\]
+
+<p>If a diatomic molecule is irradiated, an electric dipole moment <em>P</em> is induced :</p>
+
+\[P = \alpha E = \alpha E_0 cos 2\pi \nu_0 t \tag{37}\]
+
+<p>The $\alpha$ is a proportionally constant ( <em>polarizability</em>). Frequency of the vibrating molecule is $\nu_m$, $q_0$ is the vibrational amplitude, the nuclear displacement <em>q</em>:</p>
+
+\[q = q_0 cos 2\pi \nu_m t \tag{38}\]
+
+<p>For a small amplitude of vibration, $\alpha$ is a linear function of <em>q</em>. Thus, we can write</p>
+
+\[\alpha = \alpha_0 + \Big(\frac{\partial \alpha}{\partial q} \Big)_0 q_0 + \cdots \tag{39}\]
+
+<p>Combining Eq.37 &amp; Eq.38, we obtain :</p>
+
+\[\begin{align} \\
+  P &amp;= \alpha E_0 cos 2\pi \nu_0 t \\
+    &amp;= \alpha_0 e_0 cos 2\pi \nu_0 t + \Big(\frac{\partial \alpha}{\partial q}\Big)_0 q E_0 cos 2\pi \nu_0 t \\
+    &amp;= \alpha_0 E_0 cos 2\pi \nu_0 t + \Big(\frac{\partial \alpha}{\partial q}\Big)_0 q_0 E_0 cos2\pi \nu_0 t cos 2\pi \nu_m t \\
+    &amp;= \alpha_0 E_0 cos 2\pi \nu_0 t + \frac{1}{2} \Big(\frac{\partial \alpha}{\partial q})_0 q_0 E_0 [cos {2\pi(\nu_0 + \nu_m)t} + cos {2\pi (\nu_0 - \nu_m)t}] 
+    \tag{39} \\
+\end{align}\]
 
 <hr />
 <p><a href="#" class="btn btn--primary align-right">TOP</a></p>
