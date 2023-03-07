@@ -4,7 +4,7 @@ layout: archive
 permalink: categories/electrodynamics
 author_profile: true
 sidebar_main: true
-excerpt: "Talk about Electrodynamics"
+excerpt: "Talking about Electrodynamics"
 header:
   overlay_image: /assets/images/posts/eletrodynamics/eletrodynamics_header2.jpg
   overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
@@ -16,7 +16,6 @@ header:
       
 
 ---
-
 
 
 {% assign posts = site.categories.electrodynamics %}

@@ -23,9 +23,9 @@ var store = [{
         "url": "/daily/customblog/",
         "teaser": null
       },{
-        "title": "[Raman] Introduction of Raman Spectroscopy",
+        "title": "[Introduction] Introduction to Raman Spectroscopy",
         "excerpt":"About Raman Spectroscopy  First of all, I study using the above following books.   Title : Introductory Raman Spectroscopy(Second edition)   Author : John R.Ferraro, Nakamoto and Chris W.Brown   Publisher : Elsevier, 2003 Sir Chandrasekhra Venkata Raman  In 1928, Sir Chandrasekhra Venkata Raman discoverd the phenomenon. He detected when...","categories": ["raman"],
-        "tags": ["Introduce Raman"],
+        "tags": ["Introductioin to Raman Spectroscopy"],
         "url": "/raman/raman-introduce/",
         "teaser": null
       },{
@@ -35,7 +35,7 @@ var store = [{
         "url": "/daily/coffee/",
         "teaser": null
       },{
-        "title": "[Raman] Basic Theory",
+        "title": "[Basic Theory.1] Basic Theory",
         "excerpt":"Energy Units and Molecular Spectra Plane Polarized electromagetic radiation [Figure. 1] Plane of Polarization   [Figure. 1] illustrates a wave of polarized electromagnetic radiation traveling in the x-direction. The electric component is y-direction and magnetic is z-direction.   Hereafter, we consider only the former. (Don’t involve magnetic phenomena). The electric...","categories": ["raman"],
         "tags": ["Raman"],
         "url": "/raman/Raman-Basic-Theory/",
@@ -47,13 +47,13 @@ var store = [{
         "url": "/daily/daily-website/",
         "teaser": null
       },{
-        "title": "[Electrodynamics] Vector Analysis",
+        "title": "[Theory.1] Vector Analysis",
         "excerpt":"벡터해석   전자기학을 공부하기 위해선 벡터를 해석할 줄 알아야합니다. 전자기학 뿐만 아니라 벡터는 모든 개념에서 기초가 되므로 간단하게 짚고 넘어가며 알아보겠습니다. 자세한 내용은 관련 서적을 참고하시면 좋습니다. 벡터대수 벡터연산   벡터란 방향을 내포하는 개념이므로 크기를 계산할 때 변위(displacement) 로 바라봅니다. 방향성을 제거했을 때는 스칼라(scalar) 입니다. 간단한 예시를 보겠습니다. [Figure. 1]...","categories": ["electrodynamics"],
         "tags": ["Vector Analysis"],
         "url": "/electrodynamics/electrodynamics-Vector/",
         "teaser": null
       },{
-        "title": "[Electrodynamics] Introduction of Electrodynamics",
+        "title": "[Introduction] Introduction to Electrodynamics",
         "excerpt":"About Electrodynamics   들어가기에 앞서, 다음의 책을 공부하였습니다.   Title : Introduction to Electrodynamics (\\(4^{th}\\) Edition)   제목 : 기초전자기학 (\\(4^{th}\\) Edition)   Author : DAVID J.GRIFFITHS   역자 : 김진승   Publisher : Cambridge University Press, 2017   한국어 출판 : 북스힐, 2019   물리학에서 근본적으로 알련진 힘은 총...","categories": ["electrodynamics"],
         "tags": ["Introduction"],
         "url": "/electrodynamics/electrodynamics-introduce/",

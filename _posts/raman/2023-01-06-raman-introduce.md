@@ -1,12 +1,12 @@
 ---
-title: "[Raman] Introduction of Raman Spectroscopy"
+title: "[Introduction] Introduction to Raman Spectroscopy"
 excerpt : "About Raman Spectrocopy"
 
 categories: 
     - raman
 author: KimTein
 tags:
-    - Introduce Raman
+    - Introductioin to Raman Spectroscopy
 
 toc : true
 toc_sticky : true

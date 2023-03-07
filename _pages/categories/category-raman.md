@@ -1,11 +1,11 @@
 ---
-title: "Raman Story"
+title: "Raman Spectroscopy"
 layout: archive
 permalink: categories/raman
 author_profile: true
 sidebar_main: true
 
-excerpt: "Talk about Raman Spectroscopy"
+excerpt: "Talking about Raman Spectroscopy"
 header:
   overlay_image: /assets/images/posts/raman/raman-header1.jpg
   overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
@@ -17,7 +17,5 @@ header:
       
 ---
 
-
-
 {% assign posts = site.categories.raman %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %}{% include archive-single2.html type=page.entries_layout %} {% endfor %}

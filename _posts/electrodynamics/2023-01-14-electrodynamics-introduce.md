@@ -1,5 +1,5 @@
 ---
-title: "[Electrodynamics] Introduction of Electrodynamics"
+title: "[Introduction] Introduction to Electrodynamics"
 excerpt : "About Electrodynamics"
 
 categories: 

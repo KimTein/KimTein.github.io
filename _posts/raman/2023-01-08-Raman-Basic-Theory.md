@@ -1,5 +1,5 @@
 ---
-title           : "[Raman] Basic Theory"
+title           : "[Basic Theory.1] Basic Theory"
 excerpt         : "Baisc Theory of Raman Spectroscopy"
 author          : KimTein
 author_profile  : true

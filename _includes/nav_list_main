@@ -23,33 +23,26 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
         <span class="nav__sub-title">Physics</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "raman" %}
-                        <li><a href="/categories/raman" class=""> Raman Story </a> ({{category[1].size}})</a></li>
+                        <li><a href="/categories/raman" class=""> Raman Spectroscopy </a> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "electrodynamics" %}
-                        <li><a href="/categories/electrodynamics" class="">ElectroDynamics Story ({{category[1].size}})</a></li>
+                        <li><a href="/categories/electrodynamics" class=""> Electrodynamics </a> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Computer</span>
+        <span class="nav__sub-title">ComputerScience</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "ai" %}
-                        <li><a href="/categories/ai" class=""> A.I Story </a> ({{category[1].size}})</a></li>
+                        <li><a href="/categories/ai" class=""> A.I  </a> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

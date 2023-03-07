@@ -1,5 +1,5 @@
 ---
-title: "[Electrodynamics] Vector Analysis"
+title: "[Theory.1] Vector Analysis"
 excerpt : "벡터해석"
 
 categories: 
